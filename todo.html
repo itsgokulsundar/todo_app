@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="/ToDo/CSS/todo.css">
+  <script src="/ToDo/todo.js" defer></script>
+  <title>To Do</title>
+</head>
+<body onload="ajax();">
+
+  <header class="header">
+    <div class="text-center">
+      <a href="todo.html">To-Do List |</a>
+    <!-- </div>
+    <div class="text-right"> -->
+      <a href="index.html">Log Out</a>
+    </div>
+  </header>
+  <div class="container">
+    <h3>My To-Do List</h3>
+    <div id="list" >
+      <li id="li"><input type="checkbox"></li>
+    </div> <!--api loads here-->
+  </div> <!--container-->
+
+
+</body>
+</html>

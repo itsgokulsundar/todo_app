@@ -1,0 +1,17 @@
+.header {
+
+}
+#submit{
+  color: white;
+  background-color: #5132d8 ;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+#login, #password {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding:5px;
+  width: 250px;
+}
+
