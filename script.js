@@ -1,6 +1,5 @@
 
 function validate(a,b,c){
-  console.log("hi");
   if(a.value == "admin" && b.value == "12345"){
     c();
   } else{
