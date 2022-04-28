@@ -24,10 +24,9 @@ function ajax(){
 
 };
 let i=0;
-    function checkAddress(checkbox){
+function checkAddress(checkbox){
      
-      if (checkbox.checked)
-      {
+      if (checkbox.checked){
       i++;
       console.log(i);
       }
@@ -39,12 +38,7 @@ let i=0;
     };
     
     function checkbox(){
-      if(i==5){
-        alert("Congrats. 5 Tasks have been Successfully Completed");
-      }
-    };
-
-  var promise = new Promise(function(resolve,reject) {
+        var promise = new Promise(function(resolve,reject) {
     console.log(i);
     if(i == 5){
       resolve("Congrats. 5 Tasks have been Successfully Completed");
@@ -62,6 +56,8 @@ let i=0;
   .catch(function(e){
   console.log(e);
   });
+  };
+
 
 
 
